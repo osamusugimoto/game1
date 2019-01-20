@@ -1,4 +1,4 @@
-		//
+			//
 			// StartPanel の開始
 			//
 function st_start()

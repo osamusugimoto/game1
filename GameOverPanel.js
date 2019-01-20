@@ -1,4 +1,4 @@
-		//
+			//
 			// GameOverPanel の開始
 			//
 function gop_start()

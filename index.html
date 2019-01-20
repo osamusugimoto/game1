@@ -1,23 +1,23 @@
-/* 菅原先生のゲームを再現　*/
+
 
 <!DOCTYPE html>
 <html lang="ja">
+  
+  /* 静岡理工科大　菅原先生のゲームを再現　*/
 
 <head>
   <meta charset="UTF-8">
   <title>ブロック崩し：ステップ1</title>
   <link rel="stylesheet" href="master.css">
-  
-	<SCRIPT TYPE="text/javascript" SRC="main/MainPanel.js"></SCRIPT>
+  <SCRIPT TYPE="text/javascript" SRC="main/MainPanel.js"></SCRIPT>
 	<SCRIPT TYPE="text/javascript" SRC="start/StartPanel.js"></SCRIPT>
 	<SCRIPT TYPE="text/javascript" SRC="game/GamePanel.js"></SCRIPT>
 	<SCRIPT TYPE="text/javascript" SRC="clear/GameClearPanel.js"></SCRIPT>
 	<SCRIPT TYPE="text/javascript" SRC="over/GameOverPanel.js"></SCRIPT>
+</HEAD>
 
-</head>
-
-  <BODY CLASS="eeffee" onLoad="mp_start()">
-	<H1>ブロック崩し：ステップ１</H1>
+ <BODY CLASS="eeffee" onLoad="mp_start()">
+	<H1>ブロック崩し：ステップ４（完成）</H1>
 	<CANVAS ID="canvas_e" STYLE="background-color: #ffffff;" WIDTH="300" HEIGHT="300"></CANVAS><BR>
 	<A HREF="method.htm" TARGET="method"><BUTTON ID="method" CLASS="std">遊び方</BUTTON></A>
 	<BUTTON ID="start" CLASS="std" onClick="gp_start()">ゲーム開始</BUTTON>
@@ -25,6 +25,7 @@
 	<BUTTON ID="finish" CLASS="std" onClick="mp.finish()">ゲーム終了</BUTTON>
 	<BUTTON ID="left" CLASS="std" onClick="gp.move(0)">左</BUTTON>
 	<BUTTON ID="right" CLASS="std" onClick="gp.move(1)">右</BUTTON>
+
     
 </BODY>
 </HTML>
